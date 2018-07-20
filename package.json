@@ -1,5 +1,5 @@
 {
-  "name": "gitbook-plugin-page-footer",
+  "name": "gitbook-plugin-gitlab-footer",
   "version": "5.3.5",
   "description": "a gitbook-plugin for generating footer with issues from gitlab",
   "engines": {
