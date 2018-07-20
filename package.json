@@ -105,6 +105,21 @@
         "default": "8",
         "description": "how many issues to show"
       },
+      "git": {
+        "type": "string",
+        "default": "http://git.d.com",
+        "description": "customer gitlab host"
+      },
+      "api": {
+        "type": "string",
+        "default": "api/v4",
+        "description": "gitlab api version"
+      },
+      "pid": {
+        "type":"string",
+        "default": "230",
+        "description": "project id"
+      },            
       "token": {
         "type": "string",
         "default": "",
