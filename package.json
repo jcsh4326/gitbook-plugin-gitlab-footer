@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-gitlab-footer",
-  "version": "5.3.5",
+  "version": "5.3.9",
   "description": "a gitbook-plugin for generating footer with issues from gitlab",
   "engines": {
     "gitbook": ">=3.0.0-pre.0"
@@ -129,6 +129,11 @@
         "type": "string",
         "default": "normal",
         "description": "choose your page footer style (normal, symmetrical)"
+      },
+      "comments": {
+        "type": "boolean",
+        "default": false,
+        "title": "comments"
       }
     }
   }
